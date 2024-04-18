@@ -1,0 +1,37 @@
+/* can i use - site para validação  */
+
+body{
+    /* Borda */
+    padding: 1.5rem;
+
+}
+
+#lista-de-tarefas{
+    /* mobile first */
+    /* nested class */
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+
+    /* @media (min-width: 768px){
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    
+    @media (min-width: 1024px){
+        grid-template-columns: 1fr 1fr 1fr;
+    } */
+}
+
+@media (min-width: 768px){
+    #lista-de-tarefas{
+    grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+@media (min-width: 1024px){
+    #lista-de-tarefas{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
