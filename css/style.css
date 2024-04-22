@@ -1,52 +1,7 @@
-/* can i use - site para validação  */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Jersey+25&display=swap');
 
-body{
-    /* Borda */
-    padding: 1.5rem;
-
-}
-
-#lista-de-tarefas{
-    /* mobile first */
-    /* nested class */
-    padding: 1.5rem;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 1.2rem;
-
-    /* @media (min-width: 768px){
-        grid-template-columns: 1fr 1fr;
-    }
-    
-    
-    @media (min-width: 1024px){
-        grid-template-columns: 1fr 1fr 1fr;
-    } */
-}
-
-/* exemplo de configuração */
-
-/* @media (min-width: 768px){
-    #lista-de-tarefas{
-    grid-template-columns: 1fr 1fr;
-    }
-}
-
-
-@media (min-width: 1024px){
-    #lista-de-tarefas{
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-} */
-
-form{
-    max-width: 600px;
-    margin: 1.78rem auto;
-
-    .botoes {
-        margin-top: 1rem;
-        display: flex;
-        justify-content: space-around;
-    }
-
+body {
+    font-family: "Jersey 25", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
